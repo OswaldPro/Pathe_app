@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cinémas Pathé : films, sortie cinéma à Paris et en France</title>
+		<link rel="stylesheet" href="/css/bases.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <link rel="stylesheet" href="/css/leftAside.css">
+    <link rel="stylesheet" href="/css/stepsSide.css">
+		<meta name="descirption" content="Tous les films à l'affiche dans les cinémas Pathé. Vivez la meilleure expérience cinéma possible avant, pendant et après la séance.">
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/index.html">Accueil</a></li>
+        <li class="breadcrumb-item"><a href="/pages/filmsList.html" aria-current="page">Choisir une séance</a></li>
+      </ol>
+    </nav>
+    <div class="salle">
+      <div class="salle-nbr"></div>
+    </div>
+    <div class="secondary-btn">
+      <img src="/assets/IMAGES/PICTOS/fleche.png" alt="">
+      <a id="backButton">Retour</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="booking-page">
+      <!-- Partie gauche -->
+      <aside class="left-info film-bg" id="leftWin">
+        <div class="bg-filter">
+          <div class="info-content"></div>
+        </div>
+
+      </aside>
+
+      <!-- Partie droite : steps -->      
+      <section class="right-window" id="rightWin"> 
+        <div class="step" id="step-seats"></div>
+        <div class="step hidden" id="step-tarifs"></div>
+        <div class="step hidden" id="step-snacks"></div>
+        <div class="step hidden" id="step-payment"></div>
+        <div class="step hidden" id="step-recap"></div> 
+          
+      </section> 
+    </section>
+  </main>
+  <script type="module" src="/assets/js/booking.js"></script>
+</body>
+</html>

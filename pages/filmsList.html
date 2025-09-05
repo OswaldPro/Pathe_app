@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinémas Pathé : films, sortie cinéma à Paris et en France</title>
+    <link rel="stylesheet" href="/css/bases.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/searchBar.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <meta name="descirption" content="Tous les films à l'affiche dans les cinémas Pathé. Vivez la meilleure expérience cinéma possible avant, pendant et après la séance.">
+</head>
+<body>
+  <section class="booking-wrapper">
+  
+    <header id="header">
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="/pages/filmsList.html" aria-current="page">Choisir une séance</a></li>
+        </ol>
+      </nav>
+      <div class="secondary-btn">
+        <img src="/assets/IMAGES/PICTOS/fleche.png" alt="">
+        <a href="/index.html">Retour</a>
+      </div>
+    </header>
+    <main>
+      <div class="search-bar-wrapper">
+        <form action="" class="search-bar">
+          
+          <!-- Genres -->
+          <select name="film-type" id="filmType">
+            <option value="">Genres</option>
+            <option value="Horreur">Horreur</option>
+            <option value="Comédie">Comédie</option>
+            <option value="Action">Action</option>
+            <option value="Aventure">Aventure</option>
+          </select>
+
+          <!-- 4K filter -->
+          <label class="checkbox-4k">
+            <input type="checkbox" name="is4K">
+            <span>4K</span>
+          </label>
+
+          <!-- Langues -->
+          <select name="langue" id="langue">
+            <option value="">Langues</option>
+            <option value="VF">VF</option>
+            <option value="VOST">VOST</option>
+
+          </select>
+
+          <!-- Search input -->
+          <div class="search-input">
+            <img class="icon" src="/assets/IMAGES/PICTOS/loupe (1).png"></img>
+            <input type="text" placeholder="Rechercher..." name="query">
+          </div>
+          
+        </form>
+      </div>
+      <div id="filmsList">   
+      </div>
+    </main>
+  </section>
+  <a href="#header" class="backToTop"><img src="/assets/IMAGES/PICTOS/fleche.png" alt=""></a>
+  <script src="/assets/js/filmsList.js"></script>
+</body>
+</html>
+
+<!-- Prochaine etape : faire le css sur les film cards ! -->

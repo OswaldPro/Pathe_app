@@ -1,0 +1,71 @@
+header {
+  position: fixed;
+  z-index: 100;
+  left: 50%;            
+  transform: translateX(-50%); 
+}
+
+
+
+
+.film-bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff; 
+}
+
+.bg-filter {
+  width: 100%;
+  height: 100%;
+  background-color: #676767a7;
+}
+
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 100px;
+
+  h1 {
+    font-size: 3.3rem;
+    font-family: 'Heebo-eBold';
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .poster-medium {
+    width: 30.7%;
+    aspect-ratio: 172/258;
+    margin-top: 25px;
+  }
+
+}
+
+.seance-info {
+  display: flex;
+  gap:  1.5rem;
+  height: 4.7rem;
+  margin-top: 34px;
+
+  .col-left {
+    font-family: 'Heebo-eBold';
+    font-size: 1.8rem;
+  }
+
+  .col-right {
+    align-self: flex-end;
+    font-family: 'Heebo-med';
+    font-size: 1.5rem;
+
+    :last-child {
+      font-size: 1rem;
+      color: #b3b3b3;
+    }
+  }
+}
+

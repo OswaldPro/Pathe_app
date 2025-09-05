@@ -1,0 +1,175 @@
+/*  General */
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090A0B;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Font */
+
+@font-face {
+  font-family: 'Heebo-regular';
+  src: url(/font/Heebo/static/Heebo-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Heebo-light';
+  src: url(/font/Heebo/static/Heebo-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Heebo-bold';
+  src: url(/font/Heebo/static/Heebo-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Heebo-med';
+  src: url(/font/Heebo/static/Heebo-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Heebo-reg';
+  src: url(/font/Heebo/static/Heebo-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Heebo-eBold';
+  src: url(/font/Heebo/static/Heebo-ExtraBold.ttf);
+}
+
+/* Home page bases */
+
+/* typo */
+h1 {
+  display: inline-block;
+  font-family: 'Heebo-bold';
+  font-size: 9.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 5rem ;
+}
+
+h2 {
+  font-family: 'Heebo-bold';
+  font-size: 3rem;
+}
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero {
+  width: 87.5%;
+  height: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .hero-content {
+  width: 100%;
+  height: 49%;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+    span {
+    font-family: 'Heebo-light';
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    }
+  }
+
+  .logo {
+    max-width: 110px;
+    max-height: 80px;
+  }
+
+  .hero-cta {
+    width: 40%;
+    max-width: 430px;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    font-family: 'Heebo-med';
+    font-size: 2.1rem;
+    padding: 0.6em 2.1em;
+    background-color: #FEB91E;
+    border-radius: 15px;
+
+    .ticket-logo {
+      background-image: url(/assets/IMAGES/PICTOS/billet.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 2.2rem;
+      aspect-ratio: 1/1;
+
+      rotate: -45deg;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+.hero-cta:hover {
+  filter: brightness(0.6);
+  cursor: pointer;
+}
+/* film list bases */
+
+.booking-wrapper {
+  width: 100vw;
+}
+
+/* booking page bases */
+
+.booking-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left-info {
+  width: 43.74%;
+  height: 100%;
+}
+
+.right-window {
+  width: 56.25%;
+  background-color: #f0f0f0;
+}
+
+
+
+
+

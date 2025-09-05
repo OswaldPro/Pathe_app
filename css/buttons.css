@@ -1,0 +1,159 @@
+/* secondary btn */
+
+.secondary-btn {
+  background-color: #202020;
+  align-self: baseline;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  color: #fff;
+  padding: 0.9rem 2.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  
+  img {
+    width: 1.1rem;
+    aspect-ratio: 1/1;
+    rotate: 180deg;
+  }
+}
+
+/* Button back to top */
+
+.backToTop {
+  position: fixed;
+  bottom: 3rem;
+  right: 6rem;
+  width: 3.43%;
+  aspect-ratio: 1/1;
+  background-color: #FEB91E;
+  border-radius: 8px;
+
+  img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    rotate: -90deg;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.backToTop:hover, .next-btn-active:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* tert-btn */
+
+.tert-btn {
+  width: 32%;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  border-radius: 21px;
+  font-family: 'Heebo-eBold';
+  font-size: 1.1rem;
+  background-color: #61646a;
+}
+
+.tert-btn-dark {
+  width: 20%;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  border-radius: 21px;
+  font-family: 'Heebo-eBold';
+  font-size: 1.1rem;
+  background-color: #323336;
+  align-self: flex-start;
+  margin-left: 150px;
+  margin-bottom: 250px;
+}
+
+/* next button */
+
+.next-btn-active {
+  width: 100%;
+  height: 6rem;
+  font-family: 'Heebo-eBold';
+  font-size: 1.9rem;
+  background-color: #FEB91E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+  cursor: pointer;
+
+  img {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+}
+
+.next-btn-inactive {
+  width: 100%;
+  height: 6rem;
+  font-family: 'Heebo-eBold';
+  font-size: 1.9rem;
+  background-color: #61646a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+  pointer-events: none;
+
+  img {
+    display: none;
+  }
+}
+
+.sec-next-btn-active {
+    width: 30.5%;
+    background-color: #FEB91E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo-eBold';
+    font-size: 1.9rem;
+    gap: 1.4rem;
+    cursor: pointer;
+
+  }
+
+.sec-next-btn-inactive {
+  width: 30.5%;
+  background-color: #61646a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Heebo-eBold';
+  font-size: 1.4rem;
+  gap: 1.4rem;
+  padding: 1rem;
+  pointer-events: none;
+  cursor: not-allowed;
+
+  img {
+    display: none;
+  }
+
+}
+
+#goNextStep {
+  img {
+    width: 34px;
+    aspect-ratio: 1/1;
+  }
+}
+
+/* plus and minus */
+
+.plus-minus {
+  width: 15px;
+  height: 15px;
+}
+
+

@@ -1,0 +1,62 @@
+/* Search bar */
+
+.search-bar-wrapper {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 1.3rem;
+  font-family: 'Heebo-med';
+  font-size: 1.6rem;
+}
+
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  max-width: 642px;
+}
+
+.search-bar select,
+.search-bar .checkbox-4k,
+.search-bar .search-input {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.checkbox-4k {
+  display: flex;
+  align-items: center;
+  background: #222;
+  cursor: pointer;
+}
+
+.checkbox-4k input {
+  display: none;
+}
+
+.checkbox-4k span {
+  padding: 0.2rem 0.5rem;
+}
+
+.checkbox-4k input:checked + span {
+  background: #444;
+  border-radius: 4px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    width: 2.1rem;
+    aspect-ratio: 1/1;
+  }
+}
+
+.search-input input {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding-left: 0.5rem;
+}

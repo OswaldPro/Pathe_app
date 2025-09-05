@@ -1,0 +1,155 @@
+/* ------- Film cards -------- */
+
+/* typo */
+h2, p, span {
+    color: #fff;
+    font-family: 'Heebo-bold';
+    font-size: 18px;
+}
+
+.horaire {
+  font-size: 2.4rem;
+}
+
+.langue { 
+  font-family: 'Heebo-bold';
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+/* General */
+#filmsList {
+  width: 90vw; 
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+}
+
+.film-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ----- Images  & icons ----- */
+.poster-mini {
+  width: 6%;
+  aspect-ratio: 1/1.4;
+  border-radius: 8px;
+}
+
+.handi img {
+  width: 98%;
+  aspect-ratio: 1/1;
+}
+
+
+/* ------- Card top ------ */
+
+.film-item-top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+
+  .film-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    p, span {
+      display: inline-block;
+      font-size: 1.4rem;
+      color: #7F7F80;
+      margin-right: 6px;
+    }
+
+    .badge-frisson {
+      color: #000;
+    }
+
+    .badge-nouveau {
+      color: #fff;
+    }
+
+    .avert {
+      width: 21px;
+      aspect-ratio: 1/1;
+      font-size: 12px;
+      color: #090A0B;
+      background-color: #7F7F80;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+}
+
+.mentions {
+  position: relative;
+
+  .badge-frisson {
+    color: #000;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0 4px 0 10px;
+  }
+
+  .badge-frisson::before {
+    content: "💛";
+    font-size: 1.5em;
+    position: absolute;
+    top: -14px;
+    left: -14px;
+  }
+
+  .badge-nouveau {
+    background-color: red;
+    padding: 0 4px;
+    border-radius: 2px;
+  }
+}
+
+/* ------ Card seances ----- */
+
+.seances {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.seance-cards {
+  width: 13.7%;
+  max-width: 164px;
+  aspect-ratio: 160/105;
+  border-radius: 6px;
+  background-color: #202020;
+  display: flex;
+  cursor: pointer;
+}
+
+.card-wrapper {
+  width: 100%;
+  height: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .col-card-40 {
+    width: 40%;
+  }
+
+  .col-card-33 {
+    width: 33%;
+    margin-bottom: 5px;
+  }
+
+  .col-card-27 {
+    width: 11%;
+    margin-bottom: 8px;
+  }
+}
+  
+
+  

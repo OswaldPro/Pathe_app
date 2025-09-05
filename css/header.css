@@ -1,0 +1,62 @@
+/* Header */
+
+header {
+  width: 90vw;
+  height: 75px;
+  background-color: transparent;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Heebo-med';
+  font-size: 1.6rem;
+
+  .handi-b img {
+  width: 16px;
+  aspect-ratio: 1/1;
+  }
+
+  .breadcrumb {
+    list-style: none;
+
+    .breadcrumb-item {
+      display: inline;
+
+      a {
+      color: #fff;
+      }
+    }
+  }
+}
+
+
+/* souligner la page en cours */
+.breadcrumb a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+.breadcrumb li+li:before {
+    color: #fff;
+    padding: 0.6rem;
+    content : ">";
+  }
+
+  /* Salle number booking page */
+
+  .salle {
+    width: 15%;
+  }
+  
+  .salle-nbr {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+
+    .handi-b {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
